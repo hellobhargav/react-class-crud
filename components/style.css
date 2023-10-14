@@ -1,0 +1,60 @@
+#gallery figure img {
+  width: 100%;
+}
+#gallery figure {
+  text-align: center;
+  margin-bottom: 30px;
+  box-shadow: 3px 4px 8px 4px rgb(112, 110, 110);
+}
+#gallery figure button {
+  width: 100%;
+  background-color: black;
+  color: white;
+  border: none;
+  height: 50px;
+}
+#batches table td:last-child {
+  text-align: center;
+}
+
+#batches table td a {
+  text-decoration: none;
+  background-color: transparent;
+  border: 2px solid rgb(191, 29, 29);
+  color: rgb(191, 29, 29);
+  padding: 5px 25px;
+}
+
+#batches table td a:hover {
+  text-decoration: none;
+  background-color: rgb(191, 29, 29);
+  border: 2px solid rgb(191, 29, 29);
+  color: rgb(255, 255, 255);
+  padding: 5px 25px;
+}
+#about p {
+  text-align: justify;
+}
+#stickyTop {
+  position: sticky !important;
+  top: 0;
+  z-index: 1;
+}
+#contact form{
+  text-align: center;
+}
+#contact input , select {
+  width: 40%;
+  padding: 10px 50px;
+  margin: 20px 5px;
+}
+#contact textarea{
+  width: 82%;
+}
+@media (max-width: 776px) {
+  #gallery figure {
+    width: 60%;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+}

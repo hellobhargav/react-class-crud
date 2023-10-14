@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;
+}
+.mobile{
+    width: 230px;
+    padding: 10px;
+    box-shadow: 3px 2px 10px 4px grey;
+    margin: 10px;
+    display: inline-block;
+}
+.mobile img{
+    width: 50%;
+}
+.mobile button{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border: none;
+}
